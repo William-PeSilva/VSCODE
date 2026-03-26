@@ -1,0 +1,18 @@
+#SAUDAÇÃO BÁSICA
+nome = input("Olá, qual seu nome? ")
+print("Olá,", nome)
+
+#IDADE
+idade = int(input("Olá, qual sua idade? "))
+if idade > 18:
+    print("Maior de idade")
+else: print("Menor de idade")
+
+#NÚMERO POSITIVO OU NEGATIVO
+número = int(input("Digite um número qualquer: "))
+if número >0:
+    print("Número positivo")
+else: print("Número negativo")
+
+#JUNTANDO TUDO
+print("Olá,", nome, "você tem", idade, "e é", "maior de idade" if idade > 18 else "menor de idade", "e o número que você digitou é", "positivo" if número >0 else "negativo")
